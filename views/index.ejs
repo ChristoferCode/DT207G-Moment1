@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Moment 1 | Start</title>
+</head>
+<body>
+    <div class="container">
+        <main>
+
+            <h1>Moment 1 – Start</h1>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="/" class="current">Start</a></li>
+                    <li><a href="/about">Om webbplatsen</a></li>
+                    <li><a href="/addcourse">Lägg till kurs</a></li>
+                </ul>
+            </nav>
+
+            <br><br>
+
+
+            <h2>Avklarade kurser</h2>
+
+            <ul>
+                <% if(locals.rows.length>0) { %>
+                    <% locals.rows.forEach((row) => { %>
+                    <article class="kurs">
+                        
+                        <li>
+                            <strong>Kurskod:</strong> <%= row.coursecode %>
+                        </li>
+                        <li>
+                            <strong>Kursnamn:</strong> <%= row.coursename %>
+                        </li>
+                        <li>
+                            <strong>Kursplan:</strong> <a href="<%= row.courseplan %>" target="_blank">Länk till aktuell kursplan</a>
+                        </li>
+                        <li>
+                            <strong>Progression:</strong> <%= row.courseprog %>
+                        </li>
+                        <br>
+                        <li>
+                            <strong>Avklarad:</strong> <%= row.posted %>
+                        </li>
+                        <br>
+                        <p>
+                            <a href="/delete/<%= row.id %>" class="remove">Ta bort kurs</a>
+                        </p>
+                    </article>
+                    <br>
+                <% })}; %>
+            </ul>
+
+        </main>
+    </div>
+    <footer>
+        <p class="footertext">Denna webbplats är skapad av <a href="https://github.com/ChristoferCode" id="mingithub"><span id="name">Christofer Hansson</span></a> 2025, för Moment 1 i kursen DT207G, Backend-baserad webbutveckling på Webb&shy;utvecklings&shy;programmet vid Mittuniversitetet. </p>
+    </footer>
+</body>
+</html>

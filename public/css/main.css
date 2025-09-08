@@ -1,0 +1,135 @@
+body {
+    background-color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+main {
+    background-color: darksalmon;
+    padding: 5em;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    color: white;
+}
+
+p {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footertext {
+    font-size: 0.9em;
+    text-align: center;
+    width: 50%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    color: black;
+    list-style: none;
+}
+
+form {
+    color: black;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.formbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kurs {
+    padding: 2em;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5);
+    background-color: wheat;
+    border-radius: 10px;
+    border-left: 20px solid rgb(255, 196, 0);
+}
+
+.remove {
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    margin-top: -30px;
+    float: right;
+    text-decoration: none;
+}
+
+.remove:hover {
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    background-color: black;
+    padding: 1em;
+}
+
+
+
+#kurskod {
+    padding: 0.5em;
+    margin-top: 5px;
+    margin-top: -5px;
+    width: 70%;
+}
+
+#kursnamn {
+    padding: 0.5em;
+    margin-top: 5px;
+    margin-top: -5px;
+    width: 70%;
+}
+
+#kursplan {
+    padding: 0.5em;
+    margin-top: 5px;
+    margin-top: -5px;
+    width: 70%;
+}
+
+#kursprogression {
+    padding: 0.5em;
+    margin-top: 5px;
+    margin-top: -5px; 
+    width: 70%;
+}
+
+#submit {
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+    margin-top: 20px;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    
+}
+
+#submit:hover {
+    background-color: rgb(40, 40, 40);
+    cursor: pointer;
+}
+
