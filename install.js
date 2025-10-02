@@ -10,7 +10,7 @@ const db = new sqlite3.Database("./db/moment1databas.db");
 
 //Skapa tabell (id, kurskod, kursnamn, kursplan, kursprogression, postad)
 db.serialize(() => {
-    db.run("DROP TABLE IF EXISTS moment1database;");
+    db.run("DROP TABLE IF EXISTS courses;");
 
     db.run(`
         CREATE TABLE courses(

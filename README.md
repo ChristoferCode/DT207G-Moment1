@@ -12,7 +12,7 @@ Denna uppgift går ut på att:
 
 * *Kunna använda några vanliga SQL-kommandon såsom SELECT, INSERT, UPDATE och DELETE.*
 
-Mitt Git-repository är kopplat till mitt Netlify-konto och så fort main-branch uppdateras så uppdateras denna webbplats som är publicerad via Netlify. Under tiden jag utvecklar min webbplats jobbar jag mot dev-branch för versionshantering men detta publiceras alltså inte. När jag vill publicera så mergar jag ihop dev och main så att main syncar mina senaste uppdateringar i dev.
+Jag har använt mig utav EJS som view engine för att visa min webbplats och SQLite som DBMS. Tyckte detta var smidigast och också något jag ville lära mig att använda.
 
 
 ### Skapad av

@@ -89,28 +89,24 @@ form {
 
 #kurskod {
     padding: 0.5em;
-    margin-top: 5px;
     margin-top: -5px;
     width: 70%;
 }
 
 #kursnamn {
     padding: 0.5em;
-    margin-top: 5px;
     margin-top: -5px;
     width: 70%;
 }
 
 #kursplan {
     padding: 0.5em;
-    margin-top: 5px;
     margin-top: -5px;
     width: 70%;
 }
 
 #kursprogression {
     padding: 0.5em;
-    margin-top: 5px;
     margin-top: -5px; 
     width: 70%;
 }
