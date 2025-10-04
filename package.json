@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "install": "node install.js",
+    "createDB": "node install.js",
     "start": "nodemon server.js"
   },
   "keywords": [],
